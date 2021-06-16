@@ -1,0 +1,12 @@
+Source: ros-noetic-pass-through-controllers
+Section: misc
+Priority: optional
+Maintainer: Stefan Scherzinger <scherzin@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-cartesian-control-msgs, ros-noetic-cartesian-interface, ros-noetic-cartesian-trajectory-controller, ros-noetic-catkin, ros-noetic-control-msgs, ros-noetic-controller-manager, ros-noetic-controller-manager-msgs, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-hardware-interface, ros-noetic-roscpp, ros-noetic-rostest, ros-noetic-speed-scaling-interface, ros-noetic-trajectory-msgs, ros-noetic-xacro
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pass-through-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-cartesian-control-msgs, ros-noetic-cartesian-interface, ros-noetic-controller-interface, ros-noetic-controller-manager, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-hardware-interface, ros-noetic-roscpp, ros-noetic-speed-scaling-interface, ros-noetic-trajectory-msgs
+Description: Trajectory controllers (joint-based and Cartesian) that forward trajectories directly to a robot controller and let it handle trajectory interpolation and execution.
