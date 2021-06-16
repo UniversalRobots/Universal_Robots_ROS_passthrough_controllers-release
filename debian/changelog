@@ -1,0 +1,8 @@
+ros-noetic-pass-through-controllers (0.1.0-1focal) focal; urgency=high
+
+  * Initial release
+  * Contributors: Felix Exner, Rune Søe-Knudsen, Stefan Scherzinger
+
+ -- Stefan Scherzinger <scherzin@fzi.de>  Mon, 14 Jun 2021 22:00:00 -0000
+
+
