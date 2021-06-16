@@ -1,0 +1,12 @@
+Source: ros-melodic-pass-through-controllers
+Section: misc
+Priority: optional
+Maintainer: Stefan Scherzinger <scherzin@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-cartesian-control-msgs, ros-melodic-cartesian-interface, ros-melodic-cartesian-trajectory-controller, ros-melodic-catkin, ros-melodic-control-msgs, ros-melodic-controller-manager, ros-melodic-controller-manager-msgs, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-hardware-interface, ros-melodic-roscpp, ros-melodic-rostest, ros-melodic-speed-scaling-interface, ros-melodic-trajectory-msgs, ros-melodic-xacro
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pass-through-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib, ros-melodic-cartesian-control-msgs, ros-melodic-cartesian-interface, ros-melodic-controller-interface, ros-melodic-controller-manager, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-hardware-interface, ros-melodic-roscpp, ros-melodic-speed-scaling-interface, ros-melodic-trajectory-msgs
+Description: Trajectory controllers (joint-based and Cartesian) that forward trajectories directly to a robot controller and let it handle trajectory interpolation and execution.
